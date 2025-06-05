@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "ecommerce",
+  "name": "ecommercer",
   "builds": [
     {
       "src": "index.js",
