@@ -22,7 +22,12 @@ const orderRoute = require("./routes/Order");
 
 app.use(express.json());
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://ecommerce-hhyl.vercel.app/",
+    credentials: true,
+  })
+);
 
 // database seed route
 app.use("/api/seed", databaseSeeder);
