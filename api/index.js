@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://ecommerce-hhyl.vercel.app",
+    origin: "https://ecommerce-topaz-three-27.vercel.app",
     credentials: true,
   })
 );
