@@ -24,9 +24,11 @@ function ProductDetail() {
     return (
         <Layout>
             {loading ? (
-                <h1>loading</h1>
+                <h1>Loading...</h1>
             ) : error ? (
                 <h1>{error}</h1>
+            ) : !product ? (
+                <h1>Producto no encontrado</h1>
             ) : (
                 <>
                     <section className="text-gray-600 body-font overflow-hidden">
