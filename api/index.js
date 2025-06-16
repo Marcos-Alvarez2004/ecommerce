@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://ecommerce-hhyl.vercel.app/",
+    origin: "https://ecommerce-hhyl.vercel.app",
     credentials: true,
   })
 );
